@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Izzy's Pizza</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Itim&display=swap" rel="stylesheet">
+</head>
+
+<body id="background">
+  <div class = "container">
+    <div class="rectangle">
+      <header>
+        <h1>Izzy's Pizza</h1>
+        <p id="description">Here at <em>Izzy's Pizza</em>, we like to make sure we are giving our customers what they want.
+        So, we now have a weekly newsletter to feed all of your greasy pizza dreams.
+        Complete the survey below to get access to this delicious newsletter!</p>
+      </header>
+      <main>
+        <form id="survey-form">
+          <fieldset id="pinfo" >
+            <legend>Personal Info</legend>
+            <div class="pinfo_elements">
+              <label for="name" id="name-label" class = "pinfo_elements">Name:</label>
+              <input type="text" placeholder="John Doe" id="name" required>
+      
+              <label for="email" id="email-label" class = "pinfo_elements">Email:</label>
+              <input type="email" placeholder="johndoe@izzypizza.com" id="email" required>
+      
+              <label for="number" id="number-label" class = "pinfo_elements">Age (optional): </label>
+              <input id="number" type="number" min="1" max="100" placeholder="18" required>
+            </div>
+
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>How do you get your pizza?</legend>
+            <label for="delivery" id = "delivery">
+              <select name="delivery" id="dropdown">
+                <option value="pickUp">Pick Up</option>
+                <option value="dineIn">Dine In</option>
+                <option value="home">Home Delivery</option>
+              </select>
+            </label>
+          </fieldset>
+          <br>
+    
+          <fieldset id = "radio">
+            <legend>How did you hear about us?</legend>
+            <label for="instagram">
+              <input type="radio" name="social" value="social media" class="input_space">Social Media (Instagram, Snapchat, etc)
+            </label>
+    
+            <label for="friend">
+              <input type="radio" name="social" value="friend" class="input_space">From a friend or family member
+            </label>
+    
+            <label for="commercial">
+              <input type="radio" name="social" value="commercial" class="input_space">Google Search
+            </label>
+    
+            <label for="other">
+              <input type="radio" name="social" value="other" class="input_space">Other
+            </label>
+          </fieldset>
+    
+          <fieldset>
+            <legend>Favorite toppings?</legend>
+            <label for="pepperoni"> 
+            <input type="checkbox" value="pepperoni" class="input_space">Pepperoni</label>
+    
+            <label for="pepperoni">
+              <input type="checkbox" value="cheese" class="input_space">Cheese</label>
+    
+            <label for="pineapple">
+              <input type="checkbox" value="pineapple" class="input_space">Pineapple</label>
+    
+            <label for="sausage">
+              <input type="checkbox" value="commercial" class="input_space">Sausage</label>
+    
+            <label for="mushrooms">
+              <input type="checkbox" value="mushrooms" class="input_space">Mushrooms</label>
+    
+            <label for="chicken">
+              <input type="checkbox" value="chicken" class="input_space">Chicken</label>
+          </fieldset>
+    
+          <fieldset id="commentsqc">
+            <legend>Any comments, questions, or concerns?</legend>
+            <textarea placeholder="Enter your comments here!"></textarea>
+          </fieldset>
+    
+          <input type="submit" id="submit"></button>
+        </form>
+      </main>
+    </div>
+  </div>
+ 
+</body>
+</html>
+

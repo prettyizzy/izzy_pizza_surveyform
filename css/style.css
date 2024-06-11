@@ -1,0 +1,175 @@
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #f0452f;
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+}
+
+label {
+  font-family: 'Itim';
+}
+
+#description {
+  font-family: 'Itim';
+  font-size: 1.5em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: -1rem;
+  justify-self: center;
+  text-align: center;
+}
+
+#survey-form {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  line-height: 20px;
+  justify-content: center;
+  font-size: 20px;
+}
+
+legend {
+  font-size: 28px;
+  color: #f0452f;
+  font-family: 'Itim';
+  text-align: center;
+}
+
+#submit {
+  font-size: 15px;
+  border: none;
+  border-radius: 2em;
+  width: 10em;
+  color: white;
+  background-color: #f0452f;
+
+  height: 2.1em;
+  align-items: center;
+  margin-bottom: 2em;
+  padding-top: 0.3em;
+}
+
+#submit:hover {
+  color: #f0452f;
+  background-color: white;
+  border-color: #f0452f;
+  border-style: dotted;
+  height: 2.2em;
+}
+
+#background {
+  background-image: url("../img/pizza.jpeg");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100wh;
+  width: 100vw;
+  position: relative;
+  justify-content: center;
+}
+
+.rectangle {
+  width: 62.5em;
+  background-color: whitesmoke;
+  padding-bottom: 6rem;
+  justify-content: center;
+  border-radius: clamp(1rem, 3vw, 3rem);
+}
+
+label {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+#commentsqc {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  width: 80%;
+  height: 4rem;
+  border-color: black;
+  margin-top: 0.9rem;
+  margin-bottom: 0.4rem;
+  padding: 10px;
+  text-align: left;
+}
+
+#dropdown :hover{
+  color: #f0452f;
+  background-color: white;
+}
+
+#dropdown {
+  width: 12rem;
+  height: 30px;
+  border-radius: 25px;
+  justify-self: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+
+/* Input Elements */
+input[type=text] {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+input[type=email] {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type=radio] {
+  text-align: right;
+}
+
+fieldset {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+#delivery {
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+#pinfo {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: justify;
+  align-items: flex-end;
+}
+
+.input_space {
+  margin-right: 0.5rem;
+}
