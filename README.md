@@ -3,3 +3,4 @@
 
 ### TODOS
 [o] create a database utilizing MySQL 
+[o] create a home page for the pizza place
